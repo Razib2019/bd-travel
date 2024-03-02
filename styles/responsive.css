@@ -25,4 +25,26 @@
     font-size: 1.5rem;
   }
   /* Nav Section Style End Here */
+
+  /* Banner Section Style Start From Here */
+  .banner-container {
+    padding: 32px 10px;
+  }
+  .banner-contents {
+    text-align: center;
+  }
+  .banner-title {
+    font-size: 1.4rem;
+    margin-bottom: 16px;
+  }
+  .banner-description {
+    font-size: 0.9rem;
+    margin-bottom: 32px;
+  }
+  .banner-inputs {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+  }
+  /* Banner Section Style End Here */
 }

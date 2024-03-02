@@ -1,0 +1,28 @@
+/* Small Device Responsive */
+@media screen and (max-width: 600px) {
+  /* Nav Section Style Start From Here */
+  nav {
+    margin: 20px;
+  }
+  .nav-title {
+    font-size: 1.5rem;
+  }
+  .nav-left-container {
+    width: 75%;
+  }
+  .nav-left-container img {
+    width: 33px;
+  }
+  .nav-right-container {
+    width: 25%;
+  }
+  .nav-right-container .nav-right-contents {
+    display: none;
+  }
+  .nav-right-container .hamburger-bars {
+    display: flex;
+    justify-content: flex-end;
+    font-size: 1.5rem;
+  }
+  /* Nav Section Style End Here */
+}

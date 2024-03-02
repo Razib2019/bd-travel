@@ -1,0 +1,81 @@
+/* Using Google Font */
+@import url("https://fonts.googleapis.com/css2?family=Mulish:ital,wght@0,200..1000;1,200..1000&display=swap");
+
+/* Shared Styles Start From Here */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Mulish", sans-serif;
+}
+
+.primary-color {
+  color: #ff5400;
+}
+
+.secondary-color {
+  color: #131318;
+}
+/* Shared Styles End Here */
+
+/* Header Section Style Start From Here */
+header {
+  max-width: 1170px;
+  margin: 0 auto;
+}
+
+/* Nav Section Style Start From Here */
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 50px 0;
+  cursor: pointer;
+}
+
+.nav-left-container {
+  display: flex;
+  align-items: center;
+  gap: 15px;
+  width: 42%;
+}
+
+.nav-left-container img {
+  width: 56px;
+}
+
+.nav-title {
+  font-size: 2.25rem;
+  font-weight: 800;
+}
+
+.nav-right-container {
+  width: 60%;
+}
+
+.nav-right-contents {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.nav-right-container a {
+  text-decoration: none;
+  color: #424247;
+  font-size: 18px;
+  font-weight: 400;
+}
+
+#active-button {
+  font-weight: 700;
+  color: #ff5400;
+}
+
+.nav-right-container .hamburger-bars {
+  display: none;
+}
+/* Nav Section Style End Here */
+
+/* Header Section Style End Here */

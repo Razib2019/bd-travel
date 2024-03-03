@@ -289,6 +289,84 @@ main {
 }
 /* Destination Section Start From Here */
 
+/* Packages Plans Section Styles Start From Here */
+.packages-plans-container {
+  margin: 0px 20px 100px;
+}
+.packages-plans-contents {
+  max-width: 600px;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.packages-plans-container .cards-container {
+  margin-top: 48px;
+  display: flex;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+
+.packages-plans-container .cards-container .card {
+  min-height: 450px;
+  border-radius: 15px;
+  padding: 30px;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+
+.package-title {
+  font-size: 36px;
+  font-weight: 800;
+  margin-bottom: 18px;
+}
+
+.package-price {
+  font-size: 20px;
+  font-weight: 700;
+}
+.month-design {
+  font-size: 16px;
+  font-weight: 400;
+}
+
+.packages-plans-container .cards-container .card hr {
+  margin: 40px 0px;
+  color: #5a5a5d;
+}
+.card-features-container {
+  margin-bottom: 40px;
+}
+.card-feature {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  margin-bottom: 20px;
+}
+
+.card-feature .fa-circle-check {
+  color: green;
+}
+
+.most-popular {
+  background-color: #ff5400;
+  color: white;
+}
+.month-design-popular {
+  font-size: 16px;
+  font-weight: 400;
+}
+
+.popular .fa-circle-check {
+  color: white;
+}
+
+.popular-btn {
+  background-color: white;
+  color: #ff5400;
+}
+
+/* Packages Plans Section Styles End Here */
+
 /* Why Choose Us Section Style Start From Here */
 .why-choose-us-container {
   margin: 0px 20px 100px;
@@ -298,19 +376,19 @@ main {
   margin: 0 auto;
   text-align: center;
 }
-.card-container {
+.why-choose-us-container .card-container {
   margin-top: 48px;
   display: flex;
   justify-content: center;
   flex-wrap: wrap;
   gap: 24px;
 }
-.card {
+.why-choose-us-container .card-container .card {
   border-radius: 16px;
   padding: 32px;
   max-width: 553px;
 }
-.card img {
+.why-choose-us-container .card-container .card img {
   width: 64px;
   margin-bottom: 32px;
 }

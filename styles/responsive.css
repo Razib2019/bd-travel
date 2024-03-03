@@ -136,18 +136,25 @@
     grid-row: 7 / span 1;
   }
   /* Destination Section End Here */
+
+  /* Packages Plans Section Styles Start From Here */
+  .packages-plans-container {
+    margin: 20px;
+  }
+  /* Packages Plans Section Styles End Here */
+
   /* Why Choose Us Section Style Start From Here */
   .why-choose-us-container {
     margin: 24px 20px;
   }
-  .card-container {
+  .why-choose-us-container .card-container {
     margin-top: 16px;
     gap: 16px;
   }
-  .card {
+  .why-choose-us-container .card-container .card {
     padding: 24px;
   }
-  .card img {
+  .why-choose-us-container .card-container .card img {
     width: 48px;
     margin-bottom: 16px;
   }

@@ -83,6 +83,9 @@
   /* Popular Tour Section End Here */
 
   /* Destination Section Start From Here */
+  .destination-container {
+    margin-bottom: 0px;
+  }
   .img-container {
     margin-top: 16px;
     grid-template-columns: 1fr;
@@ -125,4 +128,29 @@
     grid-row: 7 / span 1;
   }
   /* Destination Section End Here */
+  /* Why Choose Us Section Style Start From Here */
+  .why-choose-us-container {
+    margin: 24px 20px;
+  }
+  .card-container {
+    margin-top: 16px;
+    gap: 16px;
+  }
+  .card {
+    padding: 24px;
+  }
+  .card img {
+    width: 48px;
+    margin-bottom: 16px;
+  }
+
+  .card .card-title {
+    font-size: 20px;
+  }
+
+  .card .card-description {
+    font-size: 14px;
+    line-height: 24px;
+  }
+  /* Why Choose Us Section Style End Here */
 }

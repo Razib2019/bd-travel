@@ -24,6 +24,16 @@ body {
   color: #5a5a5d;
 }
 
+.background-color1 {
+  background-color: rgba(251, 181, 99, 0.05);
+  border: 1px solid rgba(251, 181, 99, 0.2);
+}
+
+.background-color2 {
+  background-color: rgba(41, 206, 246, 0.05);
+  border: 1px solid rgba(41, 206, 246, 0.2);
+}
+
 .btn-primary {
   border-radius: 8px;
   background-color: #ff5400;
@@ -262,4 +272,42 @@ main {
   position: relative;
 }
 /* Destination Section Start From Here */
+
+/* Why Choose Us Section Style Start From Here */
+.why-choose-us-container {
+  margin: 0px 20px 100px;
+}
+.why-choose-us-contents {
+  max-width: 600px;
+  margin: 0 auto;
+  text-align: center;
+}
+.card-container {
+  margin-top: 48px;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 24px;
+}
+.card {
+  border-radius: 16px;
+  padding: 32px;
+  max-width: 553px;
+}
+.card img {
+  width: 64px;
+  margin-bottom: 32px;
+}
+.card .card-title {
+  font-size: 24px;
+  font-weight: 800;
+  margin-bottom: 16px;
+}
+
+.card .card-description {
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 26px;
+}
+/* Why Choose Us Section Style End Here */
 /* Main Section Style End Here */

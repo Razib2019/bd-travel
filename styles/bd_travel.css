@@ -34,6 +34,10 @@ body {
   border: 1px solid rgba(41, 206, 246, 0.2);
 }
 
+.background-color3 {
+  background-color: rgba(19, 19, 24, 0.05);
+}
+
 .btn-primary {
   border-radius: 8px;
   background-color: #ff5400;
@@ -311,3 +315,47 @@ main {
 }
 /* Why Choose Us Section Style End Here */
 /* Main Section Style End Here */
+
+/* Footer Section Start From Here */
+.footer-container {
+  padding: 110px 0;
+  margin: 0 auto;
+  max-width: 600px;
+}
+.footer-img-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 15px;
+}
+.footer-img-container img {
+  width: 40px;
+  margin-right: 16px;
+}
+.footer-img-container .footer-title {
+  font-size: 32px;
+  font-weight: 800;
+}
+.footer-description {
+  text-align: center;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 26px;
+}
+.social-media-container {
+  margin-top: 32px;
+  display: flex;
+  justify-content: center;
+  margin-bottom: 50px;
+}
+.social-media-container .fa-brands {
+  font-size: 24px;
+  margin-left: 20px;
+}
+.all-reserve {
+  margin-top: 50px;
+  text-align: center;
+  font-size: 16px;
+  font-weight: 300;
+}
+/* Footer Section End Here */

@@ -10,6 +10,14 @@
     font-weight: 400;
     line-height: 24px;
   }
+  .card-title {
+    font-size: 20px;
+    margin-bottom: 10px;
+  }
+  .card-description {
+    font-size: 14px;
+    line-height: 24px;
+  }
   /* Shared Style End Here */
 
   /* Nav Section Style Start From Here */
@@ -143,16 +151,49 @@
     width: 48px;
     margin-bottom: 16px;
   }
-
-  .card .card-title {
-    font-size: 20px;
-  }
-
-  .card .card-description {
-    font-size: 14px;
-    line-height: 24px;
-  }
   /* Why Choose Us Section Style End Here */
+
+  /* News Letter Section Style Start From Here */
+  .news-letter-section-container {
+    margin: 24px 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 16px;
+  }
+  .news-letter-left {
+    width: 100%;
+    padding: 24px;
+  }
+
+  .news-letter-left hr {
+    margin: 16px 0;
+  }
+
+  .news-letter-input-btn > input {
+    font-size: 14px;
+  }
+
+  .news-letter-right {
+    width: 100%;
+  }
+
+  .offer-container {
+    border-radius: 10px;
+    max-width: 214px;
+    padding: 10px;
+    position: absolute;
+    transform: rotate(-19.628deg);
+    bottom: 15%;
+    right: 2%;
+  }
+  .offer-container .domain-name {
+    font-size: 14px;
+  }
+  .offer-container .offer {
+    font-size: 18px;
+  }
+  /* News Letter Section Style End Here */
 
   /* Footer Section Start From Here */
   .footer-container {
